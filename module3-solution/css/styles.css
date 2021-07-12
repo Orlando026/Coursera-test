@@ -1,0 +1,102 @@
+body {
+	font-size: 16px;
+	text-align: justify;
+	color: whitesmoke;
+	background-color: rgba(29, 24, 24, 0.774);
+	font-family: Arial, Helvetica, sans-serifs;
+	width: 100%;
+ }
+
+ /************************************ Header **********************************************/
+ #header-nav {
+ 	background-color: rgb(121, 19, 19);
+ }
+ header {
+ 	border: 0;
+ 	border-radius: 0;
+ }
+
+h1 {
+ 	margin: 0;
+ 	padding: 0;
+ 	text-align:center;
+ 	font-style:inherit;
+ 	font-size: 1.5em;
+ 	color: whitesmoke;
+ }
+
+ .navbar-toggle {
+ 	position: absolute;
+ 	right: 0;
+ }
+
+ header {
+ 	position: relative;
+ }
+.visible-xs {
+	font-size: 20px;
+	color: whitesmoke;
+}
+
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover {
+  background: white;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+h2 {
+	color: whitesmoke;
+}
+
+#main {
+	margin: 10px;
+	color: rgb(121, 19, 19);
+}
+
+.paragraph {
+	position: relative;
+	margin-top: 10px;
+	padding-top: 30px;
+	background-color: whitesmoke; 
+}
+
+.third {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	font-style: bold;
+}
+
+.read {
+	padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .paragraph {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+  }}
+
+#mynav {
+	font-size: 16px bold;
+}
+
+#sarasas a {
+  color: #943126 bold;
+  font-size: 16px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+#sarasas a:hover {
+  background: white;
+}
+#sarasas a span {
+  font-size: 1.8em;
+}
